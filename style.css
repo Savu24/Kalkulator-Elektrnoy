@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(
+        to right,
+        hsl(328, 55%, 43%),
+        hsl(242, 56%, 40%)
+    );
+}
+
+#obliczenia{
+
+    width: 300px;
+    height: 300px;
+    border-style: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10%;
+    border-width: 5px;
+
+}
+
+#myH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtBox{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 95%;
+    height: 30px;
+    font-size: 25px;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+}
+
+#wynik{
+    margin-left: 14%;
+}
+
+#submitBtn{
+    margin-left: 27%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    border-color: hsl(242, 56%, 50%);
+    background-color: hsl(242, 56%, 50%);
+}
+
+#submitBtn:hover{
+    transition: 0.5s;
+    color: hsl(328, 55%, 43%);
+    background-color: beige;
+    border-style: solid;
+    border-color: hsl(242, 56%, 55%);
+}
+
